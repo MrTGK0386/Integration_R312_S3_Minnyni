@@ -1,0 +1,298 @@
+color-profile {
+    color: #ECB7C1;
+    color: #856662;
+    color: #FFEDED;
+    color: #FFC691;
+
+}
+
+body {
+    width: 100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ECB7C1;
+    background-image: ;
+}
+
+header {
+    background-color: #856662;
+    margin-bottom: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    /* Button */
+    background: #856662;
+    border: none;
+    border-radius: 35px;
+    width: 17%;
+    align-self: center ;
+    /* Text */
+    font-family: 'Shrikhand';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFEDED;
+}
+
+.TGK_nav_container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.TGK_nav_list {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.TGK_nav_link {
+    color: #FFC691 !important;
+    list-style: none;
+    margin-inline: 1em;
+}
+
+.TGK_card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 50px;
+    background-color: #FFEDED;
+    margin-bottom: 2em;
+    padding: 2em;
+    filter: drop-shadow(10px 10px 4px rgba(77, 48, 32, 0.28));
+}
+
+.TGK_round_container {
+    border-radius: 50%;
+    width: 265px;
+    height: 265px;
+    overflow: hidden;
+    /*
+    background-image: url(persona_drawing_4.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: -160px;
+    background-position-y: -45px;
+    */
+}
+
+#TGK_avatar {
+    max-height: 256px;
+    max-width: 256px;
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: 5px 55px ;
+    transform: scale(2.3);
+}
+
+#TGK_card_name {
+
+}
+
+.TGK_card_list_container {
+
+}
+
+.TGK_card_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.TGK_card_list_elemement {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #856662;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TGK_Kofi {
+    padding-left: 6px;
+}
+
+#TGK_resume {
+
+}
+
+.TGK_text {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    color: #856662;
+}
+
+.TGK_card_title {
+    font-family: Shrikhand;
+    color: #856662;
+    align-self: center;
+}
+
+.TGK_square_img_container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.TGK_square_img_container > img {
+    max-width: 100%;
+}
+
+.TGK_portfolio_list {
+    list-style: none;
+}
+
+.TGK_portfolio_element {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.TGK_portfolio_element > img {
+    border-radius: 5%;
+    max-width: 100%;
+}
+
+#TGK_flex_card1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#TGK_flex_social_X_aboutme {
+    display: flex;
+    flex-direction: column;
+    width: calc(951.5px - 256px);
+}
+
+#TGK_flex_social_name {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+#TGK_flex_about_me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#TGK_flex_about_me > h1 {
+    min-width: fit-content;
+    margin-inline-end: 24px;
+}
+
+.r_header {
+    display: flex;
+    align-content: center;
+}
+.header_button {
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.header_button > button {
+    margin: .3em;
+    background: none;
+    border: none;
+    font-family: "Montserrat",monospace;
+    font-size: 15pt;
+    font-weight: normal;
+
+}
+.header_button:hover{
+    overflow: auto;
+    text-shadow: 0 0.02em #7f80b3,0 -0.02em #7f80b3,0.02em 0 #7f80b3,-0.02em 0 #7f80b3;
+    color: #51528f;
+}
+.header_button:hover:after {
+    background-color: #51528f;
+    position: absolute;
+    border-radius: 30px;
+    height: 8px;
+    width: 80%;
+    content:"";
+    top: 90%;
+    left: 10%;
+}
+
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    font-family: "Montserrat", monospace;
+}
+
+
+.normal {
+    background-color: #fff;
+}
+
+.green {
+    background-color: #f6f6f6;
+}
+
+a {
+    color: #ba568c;
+}
+
+.structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+}
+
+h1 {
+    font-weight:1000;
+    color: #51528f;
+    font-size: 35pt;
+    margin: .1em;
+}
+h2 {
+    margin: .1em;
+    font-weight: 700;
+    color: #51528f;
+    font-size: 30pt;
+}
+h3 {
+    margin: .1em;
+    font-weight: lighter;
+    font-size: 30pt;
+    color: #51528f;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.button_container >button{
+    font-family: "Montserrat", monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+}
+.green > .button_container >button {
+    color: #ba568c;
+}

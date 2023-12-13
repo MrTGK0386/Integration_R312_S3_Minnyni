@@ -16,6 +16,10 @@ body {
     background-image: url("finalCupcake.png");
     background-repeat: repeat;
     background-size: 200px;
+
+    /*Paralax*/
+    background-attachment: fixed;
+
 }
 
 body:nth-child(2) {
@@ -64,6 +68,7 @@ button {
 }
 
 #TGK_scroller {
+    display: none;
     cursor: pointer;
     position: fixed;
     bottom: 20px;
@@ -264,5 +269,3 @@ a:hover {
 a:visited {
     filter: brightness(150%);
 }
-
-

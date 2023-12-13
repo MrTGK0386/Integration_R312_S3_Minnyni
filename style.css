@@ -17,7 +17,7 @@ body {
     background-repeat: repeat;
     background-size: 200px;
 
-    /*Paralax*/
+    /*Paralax*/S
     background-attachment: fixed;
 
 }
@@ -81,6 +81,17 @@ button {
     padding-top: 3px;
     width: 66px;
     height: 66px;
+}
+
+#TGK_scroller:hover {
+    transition: 500ms ease-in-out;
+    background-color: #856662;
+    border-color: #FFEDED;
+}
+
+#TGK_scroller:hover path {
+    transition: 500ms ease-in-out;
+    stroke: #FFEDED;
 }
 
 .TGK_nav_container {
@@ -268,4 +279,35 @@ a:hover {
 
 a:visited {
     filter: brightness(150%);
+}
+
+.fadeSlideIn {
+    animation: 2s fadeSlideIn ;
+}
+
+.pop {
+    animation: 500ms pop;
+}
+
+/* ANIMATION */
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translate(0, 20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
 }
